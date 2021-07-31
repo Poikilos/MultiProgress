@@ -38,12 +38,12 @@ See the license file. Software from the second 2021-07-31 commit and on is consi
         Me.ThisMultiProgress.Size = New System.Drawing.Size(240, 24)
         Me.ThisMultiProgress.TabIndex = 7
         Me.ThisMultiProgress.ForeColor = Color.Green
-		' ^ The default is blue even though Visual Styles makes the regular ProgressBar always green.
-		'   Use green to match the usual visual style such as for Windows 7 and Windows 10.
-		
-		'Store the initial colors (recommended):
-		Me.DefaultProgressBackColor = Me.ThisMultiProgress.BackColor
-		Me.DefaultProgressForeColor = Me.ThisMultiProgress.ForeColor
+        ' ^ The default is blue even though Visual Styles makes the regular ProgressBar always green.
+        '   Use green to match the usual visual style such as for Windows 7 and Windows 10.
+
+        'Store the initial colors (recommended):
+        Me.DefaultProgressBackColor = Me.ThisMultiProgress.BackColor
+        Me.DefaultProgressForeColor = Me.ThisMultiProgress.ForeColor
 ```
 
 ### Change color
