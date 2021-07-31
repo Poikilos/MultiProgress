@@ -16,7 +16,7 @@ See the license file. Software from the second 2021-07-31 commit and on is consi
 ## Use
 
 ### Declare
-```Visual Basic .NET
+```vb.net
     Friend WithEvents ThisMultiProgress As MultiProgress
 
 	'Create optional variables to store the initial colors (recommended):
@@ -26,7 +26,7 @@ See the license file. Software from the second 2021-07-31 commit and on is consi
 ```
 
 ### Initialize
-```Visual Basic .NET
+```vb.net
         Me.ThisMultiProgress = New MultiProgress()
 
         '
@@ -47,7 +47,7 @@ See the license file. Software from the second 2021-07-31 commit and on is consi
 ```
 
 ### Change color
-```Visual Basic .NET
+```vb.net
 
         Me.ThisMultiProgress.BackColor = Color.White
         Me.ThisMultiProgress.ForeColor = Color.Red
@@ -57,19 +57,19 @@ See the license file. Software from the second 2021-07-31 commit and on is consi
 
 ### Change the color back to normal
 (This is possible if you added the optional code above)
-```
+```vb.net
         Me.ThisMultiProgress.BackColor = Me.DefaultProgressBackColor
         Me.ThisMultiProgress.ForeColor = Me.DefaultProgressForeColor
         Me.ThisMultiProgress.Invalidate() 'Ensure that it draws with the new color.
 ```
 
 ### Change Text
-```Visual Basic .NET
+```vb.net
         Me.ThisMultiProgress.Text = ""
 ```
 
 ### Show a Percentage Value
 The percentage shown will be generated (based on `Value` and `Maximum`).
-```Visual Basic .NET
+```vb.net
         Me.ThisMultiProgress.Text = "%"
 ```
