@@ -19,7 +19,7 @@ See the license file. Software from the second 2021-07-31 commit and on is consi
 ```vb.net
     Friend WithEvents ThisMultiProgress As MultiProgress
 
-	'Create optional variables to store the initial colors (recommended):
+    'Create optional variables to store the initial colors (recommended):
     Public Property DefaultProgressBackColor As Color
     Public Property DefaultProgressForeColor As Color
 
@@ -48,11 +48,9 @@ See the license file. Software from the second 2021-07-31 commit and on is consi
 
 ### Change color
 ```vb.net
-
         Me.ThisMultiProgress.BackColor = Color.White
         Me.ThisMultiProgress.ForeColor = Color.Red
         Me.ThisMultiProgress.Invalidate() 'Ensure that it draws with the new colors.
-
 ```
 
 ### Change the color back to normal
